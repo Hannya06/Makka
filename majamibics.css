@@ -1,0 +1,174 @@
+body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom, #FFFACD , #F4A460 );
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    header {
+      background-color: #FF8C00; /* Sötétebb zöld szín a fejlécnek */
+      color: #fff;
+      padding: 5px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #FF8C00;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+    }
+
+    
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav li {
+      margin-right: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .menu-section {
+      display: none;
+      padding: 20px;
+    }
+
+    .menu-section.active {
+      display: block;
+    }
+
+    .menu-section img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    #home {
+      background-image: url('background.jpg'); /* A háttérkép elérési útját a saját képedre cseréld le */
+      background-size: cover;
+      color: #333; /* Szövegszín a háttérhez */
+      text-align: center;
+      padding: 100px;
+    }
+
+    footer {
+      background-color: #4B8D52;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+	
+	#menu{
+		color: #333; /* Szövegszín a háttérhez */
+		text-align: center;
+		padding: 100px;
+	}
+	
+	#weekly-menu{
+		color: #333; /* Szövegszín a háttérhez */
+		text-align: center;
+		padding: 100px;
+	}
+	
+	#monthly-menu{
+		color: #333; /* Szövegszín a háttérhez */
+		text-align: center;
+		padding: 100px;
+	}
+	
+	#reservation{
+		color: #333; /* Szövegszín a háttérhez */
+		text-align: center;
+		padding: 100px;
+	}
+	
+	#contact{
+		color: #333; /* Szövegszín a háttérhez */
+		text-align: center;
+		padding: 100px;
+	}
+	
+	#container{
+		color: #333; /* Szövegszín a háttérhez */
+		text-align: center;
+		padding: 100px;
+	}
+	
+	#delivery{
+		color: #333; /* Szövegszín a háttérhez */
+		text-align: center;
+		padding: 100px;
+	}
+	
+	#open{
+		color: #333; /* Szövegszín a háttérhez */
+		text-align: center;
+		padding: 100px;
+	}
+	
+	.container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            overflow-x: auto; /* vízszintes görgetés engedélyezése */
+            gap: 20px;
+        }
+        .gallery img {
+            width: auto;
+            max-height: 400px; /* Max. magasság */
+            border-radius: 5px;
+        }
+	
+	#korkep{
+		border-radius: 50%;
+		
+		width: 340px;
+		height: 320px;
+	}
+	
+	#korkep2{
+		border-radius: 50%;
+		
+		width: 280px;
+		height: 260px;
+	}
+	
+	#korkep3{
+		border-radius: 50%;
+		
+		width: 280px;
+		height: 260px;
+	}
+	
+	.kepek{
+		float: right;
+		width: 190px;
+		height: 170px;
+		padding-top: 10px;
+	}
+	
+	.doboz{
+		height: 250px;
+	}
+	
+	#cim{
+		margin-left: 150px;
+	}
